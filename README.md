@@ -88,10 +88,8 @@ LLM이 붙은 웹 애플리케이션
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/gitkraken-179287?style=flat&logo=Git&logoColor=gitkraken&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/django-092E20?style=flat-square&logo=django&logoColor=white"/></td>
   </tr>  
 </table>
-
 >### <span style="color:cyan"> Data Analysis </span>
 <table>
   <tr>
@@ -103,11 +101,10 @@ LLM이 붙은 웹 애플리케이션
   </tr>
 </table> 
 <br><br><br>
-
 # 4. 프로젝트 진행 과정
-  
+
   ## **Preprocessing**
-  
+
   ### 1. 데이터 수집
 - 크롤링을 통해 응급처치 데이터 수집 진행
 - Json으로 파일 저장
@@ -187,7 +184,7 @@ tokenizer.save_pretrained("./fine_tuned_emergency_model")
  ```
 
 
-  
+
   ### 3. RAG(Faiss) 벡터 검색 구축
   - SBERT를 사용해 응급처치 데이터를 벡터화하고 Faiss에 저장
   - 사용자의 질문과 가장 유사한 응급처치 정보를 빠르게 검색 가능
@@ -219,8 +216,8 @@ with open("texts.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 ```
 
-  
-  
+
+
   ### 4. 최종 챗봇 생성 (LLM + RAG 결합) 
   - 준비한 데이터셋과 파인튜닝 전략을 사용하여 모델을 훈련
   - 학습 과정에서 설정된 하이퍼파라미터와 최적화된 알고리즘을 기반으로 모델 매개변수를 점진적으로 조정
@@ -249,10 +246,10 @@ embedding_model = SentenceTransformer("snunlp/KR-SBERT-V40K-klueNLI-augSTS")
 def search_and_generate(query):
     # 쿼리 벡터 변환
     query_vector = embedding_model.encode(query).reshape(1, -1)
-    
+
     # Faiss 검색 (최상위 3개 문서)
     D, I = index.search(query_vector, k=3)
-    
+
     # 검색된 문서들 연결
     context = "\n".join([texts[i]["answer"] for i in I[0]])
 
@@ -320,4 +317,3 @@ _AWS라는 것을 처음 알게되어 보람찼다.👏_
 
 🪐<b>오민수</b>  
 _AWS을 통해 배포해보니 좋은 경험이었다.👏_
-
