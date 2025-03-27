@@ -276,29 +276,7 @@ print(search_and_generate(query))
   ![image](https://github.com/user-attachments/assets/fc52d54b-65e6-4269-b332-0b8478d38646)
 
   -EC2 Instance 생성
-  ![image (1)](https://github.com/user-attachments/assets/700e69a8-7a5c-446a-bf20-c041a1ade2e0)
-
-  -AMI 설정
-  ![image (2)](https://github.com/user-attachments/assets/2d4a1545-cb6e-42c1-90ae-dad72ca33326)
-
-  -키 페어 생성
-  ![image (3)](https://github.com/user-attachments/assets/c9cc16ca-bbd0-45cb-a013-eb9e8742c7bc)
-
-  -네트워크 설정
-  ![image (4)](https://github.com/user-attachments/assets/c7277623-0c58-4569-92d5-0b335decea05)
-
- -스토리지 구성
- ![image (5)](https://github.com/user-attachments/assets/13901b43-26f1-47ce-91e5-df4519bec94a)
-
-
- ### 6. AWS에 LLM프로젝트 배포
-
- -EC2 서버에 원격 접속
- ![image (6)](https://github.com/user-attachments/assets/b66d7c7c-221b-4361-88ed-8c5051480a5a)
-<br><br><br>
-
-# 5. 결과
-- 질문
+다
 <img width="299" alt="image" src="https://github.com/user-attachments/assets/1047d596-55c6-4dbb-86aa-445476f52614" />
 
 - 답변
