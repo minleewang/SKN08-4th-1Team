@@ -295,7 +295,7 @@ print(search_and_generate(query))
 
  -EC2 서버에 원격 접속
  ![image (6)](https://github.com/user-attachments/assets/b66d7c7c-221b-4361-88ed-8c5051480a5a)
-<br><br><br>
+
 
 # 5. 결과
 - 질문
@@ -303,6 +303,10 @@ print(search_and_generate(query))
 
 - 답변
 <img width="305" alt="image" src="https://github.com/user-attachments/assets/34e13665-dc5c-4ebf-a79c-fe8cbebbc3be" />
+
+-배포 화면
+<img width="680" alt="화면 캡처 2025-03-28 093049" src="https://github.com/user-attachments/assets/bd8afc21-d6a0-4362-a474-e83065ff61a1" />
+
 <br><br><br>
 
 # 8. 한 줄 회고
