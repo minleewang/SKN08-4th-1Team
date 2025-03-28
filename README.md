@@ -271,22 +271,22 @@ print(search_and_generate(query))
 ```
 
   ### 5. AWS 설정
-  -AWS 계정 생성
+ - AWS 계정 생성
   ![image](https://github.com/user-attachments/assets/fc52d54b-65e6-4269-b332-0b8478d38646)
 
-  -EC2 Instance 생성
+ - EC2 Instance 생성
   ![image (1)](https://github.com/user-attachments/assets/700e69a8-7a5c-446a-bf20-c041a1ade2e0)
 
-  -AMI 설정
+ - AMI 설정
   ![image (2)](https://github.com/user-attachments/assets/2d4a1545-cb6e-42c1-90ae-dad72ca33326)
 
-  -키 페어 생성
+ - 키 페어 생성
   ![image (3)](https://github.com/user-attachments/assets/c9cc16ca-bbd0-45cb-a013-eb9e8742c7bc)
 
-  -네트워크 설정
+ - 네트워크 설정
   ![image (4)](https://github.com/user-attachments/assets/c7277623-0c58-4569-92d5-0b335decea05)
 
- -스토리지 구성
+ - 스토리지 구성
  ![image (5)](https://github.com/user-attachments/assets/13901b43-26f1-47ce-91e5-df4519bec94a)
 
 
@@ -303,7 +303,7 @@ print(search_and_generate(query))
 - 답변
 <img width="305" alt="image" src="https://github.com/user-attachments/assets/34e13665-dc5c-4ebf-a79c-fe8cbebbc3be" />
 
--배포 화면
+- 배포 화면
 <img width="680" alt="화면 캡처 2025-03-28 093049" src="https://github.com/user-attachments/assets/7247586c-3ef1-428f-982e-b6ad348e7a75" />
 
 # 8. 한 줄 회고
