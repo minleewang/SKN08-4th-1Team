@@ -270,7 +270,6 @@ query = "허리를 다치면 어떻게 해?"
 print(search_and_generate(query))
 ```
 
-<br><br><br>
   ### 5. AWS 설정
   -AWS 계정 생성
   ![image](https://github.com/user-attachments/assets/fc52d54b-65e6-4269-b332-0b8478d38646)
