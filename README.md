@@ -307,8 +307,6 @@ print(search_and_generate(query))
 -배포 화면
 <img width="680" alt="화면 캡처 2025-03-28 093049" src="https://github.com/user-attachments/assets/7247586c-3ef1-428f-982e-b6ad348e7a75" />
 
-<br><br><br>
-
 # 8. 한 줄 회고
 🤓<b>김현우</b>  
 _ 웹을 통해 직접 배배포해보니 색다른 경험이 되었다.👏_
